@@ -1,2 +1,10 @@
-# ED2022-02-UNALMED_Snake
-Proyecto #1 de la materia Estructuras de Datos. Juego "Snake" desarrollado en Python. UNAL sede Medellín, semestre 2022-2.
+# Primer trabajo: Snake 🐍
+- **Materia:** Estructuras de Datos
+- **Profesor:** Julian Moreno Cadavid
+- **Institución:** Universidad Nacional de Colombia sede Medellín
+- **Semestre:** 2022-2
+
+## Equipo de trabajo (Equipo 1)
+- Emmanuel López Rodríguez - [emlopezr@unal.edu.co](mailto:emlopezr@unal.edu.co)
+- Maria Paula Duque Muñoz - [maduquem@unal.edu.co](mailto:maduquem@unal.edu.co)
+- Andrés Felipe Aparicio Mestre - [anapariciom@unal.edu.co](mailto:anapariciom@unal.edu.co)
