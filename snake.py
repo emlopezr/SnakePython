@@ -68,9 +68,10 @@ class Snake:
     def die(self):      
         if self.body[0][0] > 12 or self.body[0][1] > 12 or self.body[0][0] <0  or self.body[0][1] < 0:  #Si la cabeza (en cualquier eje de coordenadas) es mayor que 12, muere la serpiente
             return True
-
-        for i in range(1, len(self.body)):  #Si la cabeza tiene las mismas coordenadas que alguna otra parte del cuerpo, muere la serpiente
-            if self.body[0] == self.body[i]:
+        copia=self.body.copy()
+        copia.popleft()
+        while len(copia)>0:  #Si la cabeza tiene las mismas coordenadas que alguna otra parte del cuerpo, muere la serpiente
+            if self.body[0]==copia.popleft():
                 return True
 
 class Apple:   
@@ -85,8 +86,10 @@ class Apple:
         self.x = rn.randint(0,12)
         self.y = rn.randint(0,12)
         self.coord = (self.x,self.y)
-        if self.coord in self.snake.body:
-                self.generate()
+        while self.coord in self.snake.body:
+                self.x = rn.randint(0,12)
+                self.y = rn.randint(0,12)
+                self.coord = (self.x,self.y)
     def reset(self):
         self.coord=(10,2)
 
