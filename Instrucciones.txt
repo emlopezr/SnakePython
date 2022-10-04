@@ -1,0 +1,30 @@
+Instrucciones para la ejecución del Snake:
+
+Para la ejecución del juego es necesario tener instalada la librería pygame. 
+Para su instalaci{on en windows siga los pasos a continuación:
+
+1. Comprobar que python está instalado:
+	Para esto abra una ventana de comandos y allí ejecute el comando: python --version
+	La consola deverá mostrar la versión de python instalada.
+
+2. Comprar que se PIP esté instalado:
+	Para esto, en la ventana de comandos del paso anterior, ejecute el comando: pip --version
+	La consola deverá mostrar la versión de PIP instalada.
+
+3. Instalar pygame:
+	Si los dos dos pasos anteriores resultaron exitosos ejecute el siguiente comando: pip install pygame
+	La consola deverá mostrar el mensaje: Successfully installed pygame.
+
+Una vez instalado pygame podrá ejecutar compilar el código y esto iniciará el juego.
+
+Instrucciones para jugar:
+1. Para mover a la serpiente en la dirección deseada utilice las teclas:
+	- Arriba: Flecha hacia arriba - Tecla W
+	- Izquierda: Flecha hacia izquierda - Tecla A
+	- Abajo: Flecha hacia abajo - Tecla S
+	- Derecha: Flecha hacia derecha - Tecla D
+
+Tenga en cuenta que la serpiente se movera por si sola aunque no presione ninguna tecla. 
+Las teclas solo cambiarán la dirección del movimiento de la serpiente.
+	
+	
